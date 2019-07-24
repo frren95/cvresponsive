@@ -17,9 +17,20 @@ img {
     height: auto;
 }
 
+section {
+    padding: 45px 0 80px 0;
+}
+
 section .heading {
     text-align: center;
     padding-bottom: 40px;
+}
+
+.red-divider {
+    width: 100px;
+    height: 2px;
+    background-color: #D82C2E;
+    margin: 0 auto;
 }
 
 /* SECTION ABOUT */
@@ -35,6 +46,7 @@ section .heading {
 }
 
 #about .heading h1 {
+    margin-top: 1rem;
     color: #FFF;
     text-transform: uppercase;
 }
@@ -59,4 +71,29 @@ section .heading {
     background-color: #FFF;
     color: #D82C2E;
     text-decoration: none;
+}
+
+/* SECTION SKILLS */
+#skills {
+    background-color: #FFF;
+}
+
+#skills .heading h2 {
+    margin-top: 1rem;
+    color: #D82C2E;
+    text-transform: uppercase;
+}
+
+#skills .progress {
+    height: 2.5rem;
+    margin: 30px 20px;
+    background-color: #DDD;
+}
+
+#skills .progress-bar {
+    background-color: #D82C2E;
+}
+
+#skills .progress h5 {
+    text-shadow: 1px 1px 1px #000;
 }
