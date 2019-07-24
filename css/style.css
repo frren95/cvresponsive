@@ -33,6 +33,18 @@ section .heading {
     margin: 0 auto;
 }
 
+.white-divider {
+    width: 100px;
+    height: 2px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+section .heading h2 {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
 /* SECTION ABOUT */
 #about {
     padding-top: 100px;
@@ -79,9 +91,7 @@ section .heading {
 }
 
 #skills .heading h2 {
-    margin-top: 1rem;
     color: #D82C2E;
-    text-transform: uppercase;
 }
 
 #skills .progress {
@@ -96,4 +106,13 @@ section .heading {
 
 #skills .progress h5 {
     text-shadow: 1px 1px 1px #000;
+}
+
+/* SECTION EXPERIENCE */
+#experience {
+    background-color: #D82C2E;
+}
+
+#experience .heading h2 {
+    color: #FFF;
 }
