@@ -268,3 +268,24 @@ ol {
 .education-block .red-divider {
     margin-bottom: 20px;
 }
+
+/* SECTION PORTFOLIO */
+#portfolio {
+    background-color: #D82C2E;
+}
+
+#portfolio .heading h2 {
+    color: #FFF;
+}
+
+#portfolio img.img-thumbnail {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#portfolio img.img-thumbnail:hover {
+    filter: none;
+    -webkit-filter: none;
+}
