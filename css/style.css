@@ -289,3 +289,21 @@ ol {
     filter: none;
     -webkit-filter: none;
 }
+
+/* SECTION RECOMMANDATIONS */
+#recommandations {
+    background-color: #FFF;
+}
+
+#recommandations .heading h2 {
+    color: #D82C2E;
+}
+
+#myCarousel .carousel-item {
+    padding: 40px 30px;
+}
+
+#myCarousel .carousel-item h3 {
+    color: #D82C2E;
+    font-style: italic;
+}
