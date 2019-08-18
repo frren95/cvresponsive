@@ -45,6 +45,11 @@ section .heading h2 {
     text-transform: uppercase;
 }
 
+ul,
+ol {
+    list-style: none;
+}
+
 /* SECTION ABOUT */
 #about {
     padding-top: 100px;
@@ -115,4 +120,105 @@ section .heading h2 {
 
 #experience .heading h2 {
     color: #FFF;
+}
+
+.timeline {
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background-color: #333333;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.timeline > li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline > li::after {
+    clear: both;
+}
+
+.timeline > li::before,
+.timeline > li::after {
+    content: " ";
+    display: table;
+}
+
+.timeline li .timeline-badge {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #DDD;
+    border-radius: 50%;
+    color: #D82C2E;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.timeline-panel-container {
+    width: 50%;
+    float: left;
+}
+
+.timeline-panel-container-inverted {
+    width: 50%;
+    float: right;
+}
+
+.timeline-panel {
+    position: relative;
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #D4D4D4;
+    border-radius: 7px;
+    padding: 20px 25px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+    background-color: #FFF;
+}
+
+.timeline-panel-container-inverted .timeline-panel {
+    float: left;
+    margin-left: 40px;
+}
+
+.timeline-panel::after {
+    content: " ";
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #FFF;
+    border-right: 0 solid #FFF;
+    border-bottom: 14px solid transparent;
+}
+
+.timeline-panel-container-inverted .timeline-panel::after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -13px;
+    right: auto;
+}
+
+.timeline-heading h3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.timeline-heading h4 {
+    color: #D82C2E;
+    font-size: 16px;
 }
