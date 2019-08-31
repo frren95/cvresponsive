@@ -10,7 +10,37 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav mr-auto mx-md-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Moi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">compétences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">expérience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">éducation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#recommandations">Recommandations</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <section class="container-fluid" id="about">
     <div class="col-8 col-md-4 profile-picture">
@@ -164,7 +194,7 @@
             <div class="red-divider"></div>
             <p>HTML/CSS/Javascript</p>
             <p>Responsive Design</p>
-          </div>          
+          </div>
         </div>
       </div>
     </div>
@@ -237,7 +267,14 @@
       </div>
     </div>
   </section>
-  
+
+  <footer class="text-center">
+    <a href="#about">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    <h5>&copy; 2016 APPRENDRE-A-CODER.COM</h5>
+  </footer>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

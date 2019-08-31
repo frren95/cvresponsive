@@ -1,4 +1,4 @@
-/* Global styles */
+/* GLOBAL STYLES */
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -48,6 +48,29 @@ section .heading h2 {
 ul,
 ol {
     list-style: none;
+}
+
+/* MENU */
+nav {
+  background: #D82C2E;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav-item {
+  text-align: center;
+}
+
+.navbar li a {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #D82C2E !important;
+  background-color: #fff !important;
 }
 
 /* SECTION ABOUT */
@@ -306,4 +329,25 @@ ol {
 #myCarousel .carousel-item h3 {
     color: #D82C2E;
     font-style: italic;
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  padding: 20px 0px 40px;
+}
+
+footer a i {
+  font: 25px;
+  margin: 20px;
+  color: #D82C2E;
+}
+
+footer a i:hover {
+  font-size: 27px;
+}
+
+footer h5 {
+  color: #fff;
+  font-weight: normal;
 }
